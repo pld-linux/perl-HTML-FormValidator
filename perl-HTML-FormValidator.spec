@@ -32,7 +32,7 @@ programi¶cie na koncentracjê na bardziej interesuj±cych zadaniach.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
