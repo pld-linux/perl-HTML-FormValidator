@@ -5,7 +5,7 @@ Summary:	Validate user input, basing on input profile
 Summary(pl):	Sprawd¼ to, co wprowadzi³ u¿ytkownik w oparciu o schemat
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
