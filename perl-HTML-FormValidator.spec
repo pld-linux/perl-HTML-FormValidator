@@ -6,7 +6,8 @@ Summary(pl):	HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadzi
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	860703094c6d68a3453f3319225066ed
