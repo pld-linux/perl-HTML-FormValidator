@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	FormValidator
-Summary:	Validate user input, basing on input profile.
-Summary(pl):	Sprawd¼ to, co wprowadzi³ u¿ytkownik w oparciu o schemat.
+Summary:	Validate user input, basing on input profile
+Summary(pl):	Sprawd¼ to, co wprowadzi³ u¿ytkownik w oparciu o schemat
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
 Release:	1
