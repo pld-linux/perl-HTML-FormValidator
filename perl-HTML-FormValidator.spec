@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	FormValidator
-Summary:	Validate user input, basing on input profile
-Summary(pl):	Sprawd¼ to, co wprowadzi³ u¿ytkownik w oparciu o schemat
+Summary:	HTML::FormValidator - validate user input, basing on input profile
+Summary(pl):	HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadzi³ u¿ytkownik
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
 Release:	2
@@ -17,15 +17,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTML::FormValidator validates user input (usually from an HTML form)
-based on an input profile.  It's main aim is to make the tedious coding of
-input validation expressible in a simple format and to let the programmer
-focus on more interesting task.
+based on an input profile.  It's main aim is to make the tedious
+coding of input validation expressible in a simple format and to let
+the programmer focus on more interesting task.
 
 %description -l pl
-HTML::FormValidator sprawdza poprawno¶æ otrzymanych od u¿ytkownika danych,
-w oparciu o zdefiniowany profil.  G³ównym celem jest uproszczenie nudnego
-procesu kodowania kontroli poprawno¶ci danych wej¶ciowych i pozwolenie
-programi¶cie na koncentracjê na bardziej interesuj±cych zadaniach.
+HTML::FormValidator sprawdza poprawno¶æ otrzymanych od u¿ytkownika
+danych, w oparciu o zdefiniowany profil. G³ównym celem jest
+uproszczenie nudnego procesu kodowania kontroli poprawno¶ci danych
+wej¶ciowych i pozwolenie programi¶cie na koncentracjê na bardziej
+interesuj±cych zadaniach.
 
 %prep
 %setup -q -n %{pnam}-%{version}
