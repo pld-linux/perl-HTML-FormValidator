@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	FormValidator
 Summary:	HTML::FormValidator - validate user input, basing on input profile
-Summary(pl):	HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadzi≥ uøytkownik
+Summary(pl.UTF-8):   HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadzi≈Ç u≈ºytkownik
 Name:		perl-HTML-FormValidator
 Version:	0.11
 Release:	3
@@ -22,12 +22,12 @@ based on an input profile.  It's main aim is to make the tedious
 coding of input validation expressible in a simple format and to let
 the programmer focus on more interesting task.
 
-%description -l pl
-HTML::FormValidator sprawdza poprawno∂Ê otrzymanych od uøytkownika
-danych, w oparciu o zdefiniowany profil. G≥Ûwnym celem jest
-uproszczenie nudnego procesu kodowania kontroli poprawno∂ci danych
-wej∂ciowych i pozwolenie programi∂cie na koncentracjÍ na bardziej
-interesuj±cych zadaniach.
+%description -l pl.UTF-8
+HTML::FormValidator sprawdza poprawno≈õƒá otrzymanych od u≈ºytkownika
+danych, w oparciu o zdefiniowany profil. G≈Ç√≥wnym celem jest
+uproszczenie nudnego procesu kodowania kontroli poprawno≈õci danych
+wej≈õciowych i pozwolenie programi≈õcie na koncentracjƒô na bardziej
+interesujƒÖcych zadaniach.
 
 %prep
 %setup -q -n %{pnam}-%{version}
