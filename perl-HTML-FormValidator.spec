@@ -5,7 +5,7 @@ Summary:	HTML::FormValidator - validate user input, basing on input profile
 Summary(pl.UTF-8):	HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadził użytkownik
 Name:		perl-HTML-FormValidator
 Version:	0.11
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
