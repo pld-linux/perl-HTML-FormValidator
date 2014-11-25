@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	FormValidator
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::FormValidator - validate user input, basing on input profile
 Summary(pl.UTF-8):	HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadził użytkownik
 Name:		perl-HTML-FormValidator
@@ -11,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	860703094c6d68a3453f3319225066ed
+URL:		http://search.cpan.org/dist/HTML-FormValidator/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -18,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 HTML::FormValidator validates user input (usually from an HTML form)
-based on an input profile.  It's main aim is to make the tedious
-coding of input validation expressible in a simple format and to let
-the programmer focus on more interesting task.
+based on an input profile. It's main aim is to make the tedious coding
+of input validation expressible in a simple format and to let the
+programmer focus on more interesting task.
 
 %description -l pl.UTF-8
 HTML::FormValidator sprawdza poprawność otrzymanych od użytkownika
