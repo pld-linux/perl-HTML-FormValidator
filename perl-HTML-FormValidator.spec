@@ -1,6 +1,5 @@
 %define		pdir	HTML
 %define		pnam	FormValidator
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::FormValidator - validate user input, basing on input profile
 Summary(pl.UTF-8):	HTML::FormValidator - sprawdzanie w oparciu o schemat, co wprowadził użytkownik
 Name:		perl-HTML-FormValidator
